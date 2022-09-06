@@ -93,6 +93,7 @@ EDUCATION/TRAINING (\textit{Begin with baccalaureate or other initial profession
 {\begin{tabular}{@{}lll@{}}
 {#1} & {#2} & {#3} \\
 \end{tabular}
+\setlength\hangindent\parindent
 \newline{#4}\newline{#5}\newline{#6}}
 
 \newenvironment{education}
