@@ -27,10 +27,10 @@ UConn Health, Farmington CT & Postdoc & 04/2020 & Network Modeling in Healthcare
 \begin{statement}
 
 %OVERVIEW
-Following my PhD in Mathematics, a research assistantship in social network analysis, and an adjunct professorship, I completed two postdoctoral fellowships at UConn Health in the Center for Quantitative Medicine (CQM).
+Following my PhD in Mathematics, a research assistantship in social network analysis, and an adjunct teaching professorship, I completed two postdoctoral fellowships at UConn Health in the Center for Quantitative Medicine (CQM).
 I was first hired in 2014 to train as a data scientist under the supervision of Dr. Reinhard Laubenbacher, and I pursued a variety of projects with different collaborators during this time.
 In 2017, I was awarded a fellowship with the UConn--NIDCR T90/R90 Research Training Program under Dr. Mina Mina. My project focused on network analysis and modeling of routinely-collected healthcare data sets (``health data'').
-I have worked at the University of Florida since 2020 as an Assistant Professor, during which time I have initiated collaborations with several colleagues. I arrived at the focus of this proposal through regular research fora in the Division of Pulmonary, Critical Care, and Sleep Medicine.
+I have worked at the University of Florida since 2020 as an Assistant Professor.
 
 %PROJECTS
 My research involves descriptive and predictive modeling approaches to biomedical problems.
@@ -44,10 +44,9 @@ Finally, I am working with a team of alpha-1 antitrypsin deficiency specialists 
 Each of these projects involves heterogeneous, patient-level data, with attendant privacy considerations, quality concerns, and pre-processing needs.
 Following the informatics focus of my postdoc, I work with data of varying provenances, including electronic health records, billing claims, patient registries, public repositories, and clinical trials.
 I devote considerable effort to data quality, including an understanding of data collection and scrutiny of missingness patterns, and I have extensive experience cleaning, linking, and organizing data sets.
-%I implement and design original approaches to data analysis that exploit tools from topology, the mathematical study of continuity. These include localized approaches to outcomes research based on patient similarity as well as extensions to and generalizations of network models in systems medicine.
+I implement and design original approaches to data analysis that exploit tools from topology, the mathematical study of continuity. These include localized approaches to outcomes research based on patient similarity as well as extensions to and generalizations of network models in systems medicine.
 In all of my work i emphasize research transparency and reproducibility. This includes making analysis code and its history available online but also encapsulating essential methods into open source software packages that others can modify and use.
 This proposal deploys my background in data quality, predictive modeling, and reproducibility toward an urgent issue in patient care.
-
 
 \begin{enumerate}
 
@@ -110,27 +109,28 @@ Network science has also been a major part of my more recent work involving admi
 I self-trained at CQM as a data scientist, which entails a combination of statistical literacy, computational programming, and consultancy, with a focus on the pre-processing, analysis, and modeling of administrative healthcare data sets.
 I conducted a systematic review of studies that use network analysis to study healthcare data, a literature that contains myriad projects in diverse domains. My review synthesized this literature and taxonomized its methods in service to the field, but it also revealed to me that the increasingly popular use of ``comorbidity networks'' suffers from inconsistent methodology and uncertain validity. In response, and with a physician--informaticist colleague, we conducted a sensitivity analysis of techniques that have been used to study comorbidity networks, which we hope will encourage more consistent and transparent work in future.
 In addition to my scientific work, I completed a training collaboration with the Office of the State Comptroller of Connecticut, analyzing prescription patterns in claims data as part of an investigation into compound pharmacy fraud, and I collaborated with a pharmacist--scientist to develop a set of software packages to expedite comparative effectiveness research using claims databases.
+I use my background in reproducibility to ensure in each case that my analysis is reproducible, auditable, and reusable. I have also worked to bring somewhat niche geometric and topological data analysis techniques into more mainstream use by way of open source software development.
 
 \begin{enumerate}
 %\item \strong{J.C. Brunson} and C. Coleman. cerms: Efficient comparative effectiveness research using MarketScan, R package collection, in development. \nolinkurl{https://bitbucket.org/corybrunson/cerms/}
 \item \strong{J.C. Brunson} and R.C. Laubenbacher (2018). Applications of network analysis to routinely collected healthcare data: a systematic review, \emph{Journal of the American Medical Informatics Association} 25(2): 210--221.
 \item \strong{J.C. Brunson}, T.P. Agresta, and R.C. Laubenbacher (2020). Sensitivity of comorbidity network analysis, \emph{JAMIA Open} 3(1): 94--103.
 \item \strong{J.C. Brunson} (2020). ggalluvial: Layered Grammar for Alluvial Plots, \emph{Journal of Open Source Software} 5(49): 2017.
+\item \strong{J.C. Brunson} and E. Paul (2022). ordr: A `tidyverse' Extension for Ordinations and Biplots, R package version 0.1.1. \nolinkurl{https://cran.r-project.org/package=ordr}
 \end{enumerate}
 
 \item \emph{Descriptive and predictive modeling.}
 Since joining the University of Florida (UF), I have begun collaborations with several clinician--researchers, in Psychiatry, Psychology, and Family Medicine as well as in Pulmonary.
-My work includes some conventional statistical analysis, for example to describe determinants of healthcare worker burnout during the pandemic or to predict post-transplant outcomes among lung recipients, as well as cutting-edge model development, for example to develop a simple, integer-valued risk score for severe AATD that we hope will inform screening recommendations.
-I use my background in reproducibility to ensure in each case that my analysis is reproducible, auditable, and reusable. I have also worked to bring somewhat niche geometric and topological data analysis techniques into more mainstream use by way of open source software development.
-My primary methodological project has been to couple an artificial intelligence approach called case-based reasoning into a machine learning framework in order to improve the predictive accuracy of models without cost to their interpretability. We are using these ``localized'' models to enhance mortality prediction in ICU and cardiac outcomes for COVID-19, using patient data obtained from electronic health records. Several manuscripts are submitted or in preparation, and this approach is the basis for my CTSI Precision Health Initiative pilot award.
+My work includes some conventional statistical analysis, for example to describe determinants of healthcare worker burnout during the pandemic or to predict post-transplant outcomes among lung recipients, as well as cutting-edge model development, for example integer programming to develop a simple risk score for severe AATD that we hope will inform screening recommendations.
+As I came to appreciate the limitations of network analysis to predictive modeling and hypothesis testing, I developed an interest topological data analysis (TDA). This led an MD--PhD student and I to develop sampling procedures to improve TDA selection procedures for predictive models using health data, which violates many of the implicit assumptions satisfied by so-called ``point cloud'' data.
+This led me to couple an artificial intelligence approach called case-based reasoning into a machine learning framework in order to improve the predictive accuracy of models without cost to their interpretability. We are using these ``localized'' models to enhance mortality prediction in ICU and cardiac outcomes for COVID-19, using patient data obtained from electronic health records. A scoping review of this approach and two empirical studies, all with student collaborators, are submitted or in preparation, and this approach is the basis for my CTSI Precision Health Initiative pilot award.
 
 \begin{enumerate}
 \item A.D. Guastello, \strong{J.C. Brunson}, N. Sambuco, L.P. Dale, N.A. Tracy, B.R. Allen, C.A. Mathews (2022). Predictors of professional burnout and fulfillment in a longitudinal analysis on nurses and healthcare workers in the COVID-19 pandemic, \emph{Journal of Clinical Nursing} Epub ahead of print.
 %\item \strong{J.C. Brunson}, J. Jaber, S. Nandavaram, A. Emtiazjoo, D.C. Patel, D. Gomez Manjarres (2022). Racial-ethnic disparities in post-transplant outcomes of lung recipients.
-\item \strong{J.C. Brunson} and E. Paul (2022). ordr: A `tidyverse' Extension for Ordinations and Biplots, R package version 0.1.0. \nolinkurl{https://cran.r-project.org/package=ordr}
+\item L. Riley, \strong{J.C. Brunson}, S Eydgahi, M. Brantly, J. Lascano (2023). Development of a Risk Score to Increase Detection of Severe Alpha-1 Antitrypsin Deficiency, \emph{ERJ Open Research} 9(5): 00302.
+\item \strong{J.C. Brunson}, Y. Skaf (2022). Fixed and adaptive landmark sets for finite pseudometric spaces. arXiv 2212.09826 [Preprint]. 2023 Jan 13 (v2).  Available from: \url{https://arxiv.org/abs/2212.09826}.
 \item \strong{J.C. Brunson} (2022). individuate: `tidymodels' Extension for Individualized Models, R package version 0.0.1. \nolinkurl{https://github.com/corybrunson/individuate}
-%\item Y. Skaf and \strong{J.C. Brunson} (2022). Fixed and adaptive landmark sets for finite metric spaces.
-\item L. Riley, \strong{J.C. Brunson}, S Eydgahi, M. Brantly, J. Lascano (2023). Development of a Risk Score to Increase Detection of Severe Alpha-1 Antitrypsin Deficiency, \emph{ERJ Open Research} Epub ahead of print.
 \end{enumerate}
 
 %\item \emph{Topological data analysis.}
