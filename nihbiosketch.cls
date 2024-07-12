@@ -40,7 +40,8 @@
 \RequirePackage[normalem]{ulem}
 
 \RequirePackage{enumitem}
-\setlist[enumerate,2]{label=\alph*.,itemsep=0pt,parsep=1pt,partopsep=1pt}
+\setlist[enumerate,1]{itemsep=0pt,parsep=0pt,partopsep=1pt}
+\setlist[enumerate,2]{label=\alph*.,itemsep=0pt,parsep=0pt,partopsep=1pt}
 
 
 \RequirePackage[largestsep]{titlesec}
