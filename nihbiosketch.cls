@@ -91,7 +91,7 @@ POSITION TITLE: \@position\\
 EDUCATION/TRAINING (\textit{Begin with baccalaureate or other initial professional education, such as nursing, include postdoctoral training and residency training if applicable. Add/delete rows as necessary.})\\}
 
 \newcommand{\grantinfo}[4]
-{\filbreak\noindent{#1}\newline{#2}\newline{#3}\newline{#4}}
+{\vbox\bgroup\noindent{#1}\newline{#2}\newline{#3}\newline{#4}\egroup}
 
 \newenvironment{education}
 {\bgroup\centering
