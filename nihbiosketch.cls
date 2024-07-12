@@ -90,11 +90,8 @@ POSITION TITLE: \@position\\
 \pgline
 EDUCATION/TRAINING (\textit{Begin with baccalaureate or other initial professional education, such as nursing, include postdoctoral training and residency training if applicable. Add/delete rows as necessary.})\\}
 
-\newcommand{\grantinfo}[6]
-{\noindent\begin{tabular}{@{}lll@{}}
-{#1} & {#2} & {#3} \\
-\end{tabular}
-\newline{#4}\newline{#5}\newline{#6}}
+\newcommand{\grantinfo}[4]
+{\filbreak\noindent{#1}\newline{#2}\newline{#3}\newline{#4}}
 
 \newenvironment{education}
 {\bgroup\centering
